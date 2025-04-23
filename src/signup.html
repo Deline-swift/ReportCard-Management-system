@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neviccom Signup</title>
+    <link href="./output.css" rel="stylesheet">
+ </head>
+ <body>
+    <div class="min-h-screen bg-blue-50 flex items-center justify-center px-6 py-12 "> 
+        <div class="bg-white rounded-xl h-[550px] shadow-lg p-8 w-full max-w-lg transition-transform duration-100 transform hover:scale-105 hover:shadow-2xl">
+            <h1 class="text-center text-blue-900 text-3xl font-extrabold tracking-wide">Sign Up</h1>
+            <div class="mt-8">
+                <label for="role" class="text-xl pl-1 text-blue-950 font-semibold"> Select Role</label>
+                <select name="role" id="Role" class="block w-full h-[45px] rounded pl-5  ">
+                   <option value="principal">Principal</option>
+                   <option value="teacher">Teacher</option>
+                   <option value="disciplinary master">Disciplinary Master/Mistress</option>
+                </select>
+            </div>
+            <div class="mt-6">
+                <label for="email" class="text-xl block pl-1 text-blue-950 font-semibold">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email" class="border w-full h-[45px] rounded mt-3 pl-4 required ">
+            </div>
+            <div class="mt-6">
+                <label for="Password" class="text-xl block pl-1 text-blue-950 font-semibold">Password</label>
+                <input type="text" name="password" id="password" placeholder="Enter your password " class="border w-full h-[45px] rounded mt-3 pl-4 required " >
+
+            </div>
+            <div class="mt-8">
+                <button type="submit" class="w-full bg-blue-700 hover:bg-blue-800 text-white py-3 rounded-md font-semibold    ">
+                    Sign Up
+                </button>
+               
+            </div>
+            <div class="flex mt-3 ml-[100px] ">
+                <p class="tracking-wide ">Already has an Account?</p>
+                <a href="/src/login.html" class="pl-2 text-blue-700 font-semibold">Login</a>
+
+            </div>
+           
+           
+        </div>
+    </div>
+   
+   
+ </body>
+ </html>
